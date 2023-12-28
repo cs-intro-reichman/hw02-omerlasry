@@ -21,5 +21,8 @@ public class Perfect {
 			}
 			System.out.print(x/2);
 		}
+		else
+			System.out.print(x + " is not a perfect number");
+		
 	}
 }
