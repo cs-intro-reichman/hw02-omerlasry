@@ -51,11 +51,11 @@ public class OneOfEachStats {
 		System.out.println("Number of families with 3 children: " + n3);
 		System.out.println("Number of families with 4 children: "+ n4);
 		if(n2>=n3&&n2>=n4)
-			System.out.println("The most common number of children is 2 ");
+			System.out.println("The most common number of children is 2. ");
 		else if (n3>=n2&&n3>=n4)	
-			System.out.println("The most common number of children is 3 ");
+			System.out.println("The most common number of children is 3. ");
 		else
-			System.out.println("The most common number of children is 4 or more ");
+			System.out.println("The most common number of children is 4 or more. ");
 		//// In the previous version of this program, you used a statement like:
 		//// double rnd = Math.random();
 		//// Where "rnd" is the variable that stores the generated random value.
