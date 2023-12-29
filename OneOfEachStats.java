@@ -46,16 +46,16 @@ public class OneOfEachStats {
 	
 		}
 		avg = avg/T;
-		System.out.println("Average: " + avg + " children to get at least one of each gender. ");
+		System.out.println("Average: " + avg + " children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: "+ n2);
 		System.out.println("Number of families with 3 children: " + n3);
 		System.out.println("Number of families with 4 or more children: "+ n4);
 		if(n2>=n3&&n2>=n4)
-			System.out.println("The most common number of children is 2. ");
+			System.out.println("The most common number of children is 2.");
 		else if (n3>=n2&&n3>=n4)	
-			System.out.println("The most common number of children is 3. ");
+			System.out.println("The most common number of children is 3.");
 		else
-			System.out.println("The most common number of children is 4 or more. ");
+			System.out.println("The most common number of children is 4 or more.");
 		//// In the previous version of this program, you used a statement like:
 		//// double rnd = Math.random();
 		//// Where "rnd" is the variable that stores the generated random value.
