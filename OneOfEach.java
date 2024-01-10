@@ -1,4 +1,30 @@
+/*
+#feedback
+1. when you do calculations in your code or use functions save them in separated variable.
+for example:
 
+instead of : 
+
+if(Math.random()>0.5)
+			{
+				b = true;
+				System.out.print(" b ");
+			}
+
+   which make the
+
+   try this:
+
+   p = Math.random()
+   
+   if(p>0.5)
+			{
+				b = true;
+				System.out.print(" b ");
+			}
+
+   which make the code more readable
+*/
 /**
  *  Simulates the formation of a family in which the parents decide 
  *  to have children until they have at least one child of each gender.
